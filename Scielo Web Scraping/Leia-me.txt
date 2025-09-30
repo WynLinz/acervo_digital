@@ -1,0 +1,17 @@
+Scielo Scraper GUI (customtkinter)
+=================================
+
+Este arquivo descreve como executar a interface gráfica que facilita o uso do scraper `scielo_v2.buscar_scielo`.
+
+Dependências mínimas
+- Python 3.10+ compatível com o projeto
+- customtkinter (pip install customtkinter)
+- selenium (ver `requirements.txt` do scraper)
+- Firefox e geckodriver disponíveis no PATH
+
+pip install customtkinter
+
+Notas
+-----
+- A execução do scraper pode demorar (Selenium + download). Use com cuidado em ambientes de produção.
+- Se ocorrerem erros relacionados ao web driver, verifique se o geckodriver está instalado e no PATH.

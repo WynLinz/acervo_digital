@@ -148,10 +148,10 @@ JAZZMIN_SETTINGS = {
 
     #"copyright": ",
 
-    #link pagina do scielo scrap
+    #link pagina do scielo data
     #topmenu
     "usermenu_links": [
-        {"name": "Scielo", "url": "https://www.scielo.org/"}
+        {"name": "Scielo", "url": "https://data.scielo.org/", 'icon': "fa-solid fa-magnifying-glass", "new_window": True},
     ],
 
     # Barra de pesquisa
